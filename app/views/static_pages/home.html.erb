@@ -1,0 +1,27 @@
+<% provide(:title, "Home") %>
+
+<h1 class="home-header">Users App</h1>
+<h3>Rails DA Code Challenge</h3>
+
+<p>
+  This is my Rails app for the Rails DA Code challenge. I fulfilled these basic requirements:
+  <ul>
+    <li>Allows users to create, edit, update, and destroy users</li>
+    <li>Users have first name, last name, and email address fields</li>
+    <li>First name is required</li>
+    <li>Email addresses are validated</li>
+  </ul>
+</p>
+
+<p>
+  In addition, I added some extra features and functionality (modeled after what I learned through Michael Hartl's Rails Tutorial):
+  <ul>
+    <li>Added Bootstrap, and created custom CSS</li>
+    <li>Created a Static Pages controller to serve this home page</li>
+    <li>Dynamically changed the title of each page</li>
+  </ul>
+</p>
+
+<p>
+  <%= link_to "Go see the users page now.", users_path %>
+</p>

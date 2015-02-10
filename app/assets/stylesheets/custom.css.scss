@@ -1,0 +1,42 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.center {
+  text-align: center;
+}
+
+.home-header {
+  font-size: 5em;
+  letter-spacing: -2px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+h3 {
+  font-size: 2.05em;
+  margin-top: 0px;
+  padding-top: 0px;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.table-index {
+  thead tr {
+    border-bottom: 1px dashed;
+  }
+
+  th {
+    padding: 7px;
+  }
+  tbody tr:nth-child(even) {
+    background-color: $gray-lighter;
+  }
+  td {
+    padding: 5px;
+  }
+}
